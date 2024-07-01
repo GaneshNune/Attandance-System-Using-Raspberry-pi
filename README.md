@@ -1,21 +1,12 @@
-# Attandance System Using Raspberry Pi Board: -
-## Hardware Requirements
-- Raspberry Pi 3+ (The extra computing power 'oomph' that the Pi provides is invaluable)
-- Raspberry Pi Official Camera Module V2 (You can also use the Raspberry Pi High-Quality Camera)
-- Micro SD Card
-- Power Supply
-- Monitor
-- HDMI Cord
-- Mouse and Keyboard
+# Raspberry Pi Board-Based Attendance System: -## Hardware specifications
+- The Pi 3+ (The additional computer 'oomph' that the Pi offers is priceless.)
+- Raspberry Pi High-Quality Camera (Also available is the Raspberry Pi Official Camera Module V2).
+- Micro SD Card - Battery
+- Display - HDMI Cable
+- Keyboard and mouse
 
-## Software Requirements
-- Raspberry Pi OS
-- OpenCV
-- pip
-- cmake
-- build-essential
-- pkg-config
-- git
+## Software Requirements: 
+- git, build-essential, pkg-config, OpenCV, pip, and Raspberry Pi OS
 
 ## Installation
 
@@ -46,7 +37,7 @@ sudo apt install python3-dev python3-pip python3-numpy
 Before loading the module, set up all the required packages mentioned in the Packages section. Locate the file named `dataset_picam.py` in the root directory (e.g., `home/pi/facedetection-RapsberryPi-IOT/dataset_picam.py`). Right-click on the file and open that Python script with either Thonny or Geany. Edit the line:
 
 ```python
-name = 'R Praneeth'  # replace with your name
+name = 'Ganesh'  # replace with your name
 ```
 
 Change the value of the `name` variable to your target person's name and save the file. Go back to the parent directory and locate the folder called "dataset" and create a subfolder with the name you just changed in the Python script, because this is where the dataset training images will be saved.
